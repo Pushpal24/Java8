@@ -1,0 +1,68 @@
+Verify and Assert statement
+How to store a list of elements in a page? --driver.findElements --> List
+How to manage different tabs in windows? -- It can be done using driver.getWindowHandle() or driver.getWindowHandles(). Return Type String or List<String>
+What is Action key used for? --> Action class is used for controlling mouse and keyboard events
+Difference between implicit and explicit wait?
+How to handle alerts in selenium?
+
+Different ways of locating web element? --  ID,ClassName,Name,TagName,LinkText,PartialLinkText,Xpath.CSS Selector,DOM
+
+Assertions in Selenium -- Verify and assert
+Assert - It will validate if the response is same as expected response. If false it will stop the execution
+Verify - It will validate if the response is same as expected response. If false it will continue the next steps of the execution
+
+What is xPath? -- It is used to query XML documents to locate elements in Selenium
+Single slash (/) - Used to denote absolute path
+Double Slash(//) - Used to denote relative path
+
+What are different Junit Annotations? -- Test, Before, After, Ignore, BeforeClass, AfterClass, RunWith
+
+Difference between type and typeAndWait -- Type is used to to type some keys into text box
+typeAndWait - Type some text and then reload the page
+
+Difference between findElement and findElements -- Used to find the first element within the current page based on the location criteria
+findElements is used to find the list of elements within the current page.
+
+WebDriver driver =new FirefoxDriver(); 
+
+public class FirefoxBrowserLaunchDemo {  
+  
+public static void main(String[] args) {  
+  
+//Creating a driver object referencing WebDriver interface  
+WebDriver driver;  
+  
+//Setting webdriver.gecko.driver property  
+System.setProperty("webdriver.gecko.driver", pathToGeckoDriver + "\\geckodriver.exe");  
+  
+//Instantiating driver object and launching browser  
+driver = newFirefoxDriver();  
+  
+//Using get() method to open a webpage  
+driver.get("http://javatpoint.com");  
+  
+//Closing the browser  
+driver.quit();  
+  
+    }  
+  
+}  
+
+
+What is eventfiringwebdriver in selenium?
+
+
+Difference between thread.sleep and wait
+
+
+
+
+
+ 
+
+
+
+
+
+
+

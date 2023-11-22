@@ -1,0 +1,71 @@
+What is difference between enum and constant?
+What is final keyword in variable, method, class?
+What is interface?
+What is polymorphism?
+What is method overloading and method overriding?
+What are class loaders? -- Class loaders are used to the different classes to JVM for execution
+What is singleton class?
+What is static method? -- It is the method which belongs to the class rather than instance of class. Static methods are called class methods
+What are bean scopes?
+What are java 8 features?
+What are annotations in springboot? - These are used to provide meta data required to the program but these meta data are not of the earlier program
+What happens if @Autowired are tagged over class?
+what is super class used for?
+
+Why is java platform independent?  -- Java doesn't depend on any hardware or software. The compiler compiles the code and coverts into platform independent byte code
+
+Why is Java not a pure object oriented language? -- As java supports primitive data type such as int, float, boolean, byte, char
+
+What are non-primitive data types? - These are Array, Interface, String 
+
+Difference between heap and stack memory? Stack memory(primitive datatype) is fixed memory assigned to every program and it is constant whereas heap memory(non-primitive datatype) is allocation of a certain available memory as and when required
+
+What is data encapsulation? -- It is a process where data and the code that acts on that data are integrated in a single unit. With this process the classes cant access them but the methods of the class can access them. It is done for Better control, Setter Getter, Security and Flexibility
+
+Data Hiding in java is part of encapsulation. It is done with the help of Default, Protected, Public and Private access modifiers.
+
+Private -- Access available with the variables inside the same class
+Protected -- Access available with the variables inside the same pack
+age
+
+What is constructor overloading? -- Process of creating multiple constructors in the class consisting of same name with difference in constructor parameters. If there are different ways of initializing an object with different parameters then we use constructor overloading
+
+Method Overloading? -- Introducing same method name but different signature in the same class. It should have the same return type
+
+Method Overriding? -- 2 methods having the same name and signature present in 2 different class having parent child relationship. Keyword --> extends. This is from the concept of inheritance in java which states th
+e method to create a hierarchy between classes by inheriting another class
+
+Final Variable - The value assigned to the variable won't be changed
+Final Method - Final method cannot be overridden by children's classes
+
+Final Class - Final class cannot be inherited But it can be extended
+
+Can static methods be overloaded? -- There can be two or more static methods in a class with the same name but differing input parameters
+
+Static Class - A class in java program can only be static if it is inner class
+Static Method -It is method that is part of class rather than instance of class
+Static variables - it belongs to the class and there is only one copy of the variable
+
+What is classloader? ClassLoader is a program which is used to load required classes and interfaces to JVM when required
+
+What is SingleTon class? -- In these classes objects are created only once. This is done by ensuring that all constructors are private and methods are defined as static
+
+Difference between throw and throws -- Throw keyword is used to manually throw an exception to the calling method
+Throws is used to inform the calling method that this method throws the exception
+
+this keyword - it is used to refer current class instance variable
+super keyword - it is used to refer to the parent class object
+
+Multiple Inheritance where a child class have more than one super class is possible in java with the help of Interfaces.
+
+Interface - It is a blueprint of a class. It has static constants and abstract methods. By interface we can support multiple inheritance. It can be used to achieve loose coupling.
+
+Java Abstraction - It is a process of hiding certain detail and showing essentials to the user
+
+Abstract Methods - These types of method don’t require implementation for its declaration. 
+
+Different OOPS concept:
+
+Abstraction: Abstraction in java can be achieved with the help of interface and abstract keyword. Abstraction is the process of hiding essential features and showing only the main feature. With interface we can support multiple inheritance in java. An abstract class may or may not have abstract methods. An abstract methods will have no implementation. 
+
+Inheritance: It is a feature where one class is used to inherit the feature from the parent class to child class. Extends keyword is used to perform method overloading. 

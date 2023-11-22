@@ -1,0 +1,68 @@
+RestAssured -- 
+
+What is RestAssured?  -- RestAssured is a java based library used for testing RESTful APIs. It is used to test the different REST functionalities so that API is working as expected
+
+What is client server architecture? -- Multiple clients are connected over internet to the server or few instances of a server. When a client submits a request, the server fulfils them
+
+What is RestAssured Method chaining? --Chaining means calling any number of methods as per the design. Variables are not required to maintain interim outcomes
+
+Why would RestAssured utilize static import? -- It is used to simplify code by giving direct access to static methods and fields of a class without explicitly specifying the class name.
+
+What is Serialization? -- The process of converting organism's state(objects) into a stream of bytes(files) is known as serialization. 
+
+What technique does caching use? -- It is to store the information temporally so that 
+
+RestAssured is a class which has many static fields and methods. It supports 
+POST, GET, PUT, DELETE
+
+What is Response?
+Response is an interface which provides method to obtain the payload.
+
+Implementation method of response?
+response.getStatusLine().getStatusCode()
+
+Super Class of WebDriver/WebElement?
+SearchContext is the super interface of WebDriver and WebElement interface
+
+Implementation classes of WebDriver?
+ChromeDriver, EdgeDriver, FirefoxDriver, InternetExplorerDrive
+
+Implementation class of WebElement?
+RemoteWebElement 
+
+TakeScreenShot is an interface and getScreenshotAs is a method which comes with it
+
+What is searchcontext in selenium?
+SearchContext is the topmost interface in Selenium API which has two methods - findElement() and findElements()
+
+Selenium WebDriver interface has many abstract methods like get(String url), quit(), close(), getWindowHandle(), getWindowHandles(), getTitle()
+
+
+// TestNG
+
+What is TestNG? -- It is automation testing framework used for Java programming language.
+
+Advantages of TestNG? -- It generates report in a proper format
+Multiple test cases can be grouped and priority can be assigned
+It can be integrated with maven, jenkins
+Annotations in TestNG are easily understandable
+
+What are the sequence of execution for all annotations?
+@BeforeSuite, @BeforeTest, @BeforeClass, @BeforeMethod, @Test
+@AfterSuite, @AfterTest, @AfterClass, @AfterMethod
+
+What is testng.xml file used for?
+It defines the order of execution of test cases
+It allows to group test cases
+It executes the selected test cases
+It allows TestNG framework to integrate with jenkins
+
+How to pass parameters from testNG? -- @Parameter
+
+Difference between soft assertion and hard assertion? -- if TestNG gets an error it will throw an exception and move with the next step.. BUT in hard assertion when an assertion fails it will stop the execution
+@Listener annotation is used for? TestNG provides different listeners which performs different actions whenever event is triggered
+
+@Factory annotation is used for? -- It is used when we need to run multiple test cases through a single test class.
+
+Difference between @Factory and @DataProvider? -- @DataProvider is used to test methods multiple number of times based on the different data provided 
+@factory is used to execute the test methods present in the same test class using different instances of the respective class
