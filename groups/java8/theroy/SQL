@@ -1,0 +1,6 @@
+Difference between UNION and JOINS?
+What is Left Join?
+Difference between Having and GROUPBY?
+	GROUPBY is used to aggregate functions to collate based on aggregate functions. HAVING is used where WHERE clause cant be used
+Can we have group by and order by together? 
+	Yes. Order By is always after GroupBy. GroupBy is used to arrange the data into groups. And orderBy is used to sort that aggregate result. 
