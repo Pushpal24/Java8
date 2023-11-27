@@ -3,7 +3,9 @@ How to store a list of elements in a page? --driver.findElements --> List
 How to manage different tabs in windows? -- It can be done using driver.getWindowHandle() or driver.getWindowHandles(). Return Type String or List<String>
 What is Action key used for? --> Action class is used for controlling mouse and keyboard events
 Difference between implicit and explicit wait?
+
 How to handle alerts in selenium?
+driver.switchTo().alert().dismiss();
 
 Different ways of locating web element? --  ID,ClassName,Name,TagName,LinkText,PartialLinkText,Xpath.CSS Selector,DOM
 
@@ -50,9 +52,29 @@ driver.quit();
 
 
 What is eventfiringwebdriver in selenium?
+EventFiringWebDriver class is a wrapper around the WebDriver that gives the driver the capability to fire messages/tasks.
 
+What are different types of wait?
 
-Difference between thread.sleep and wait
+Implicit Wait -- In this the driver waits for a certain time to wait for the element being visible.
+driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
+
+Explicit Wait -- In this the driver waits for a certain condition to be satisfied. This helps in reducing the wait time as it is more dynamic.
+wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(""))); guru99seleniumlink.click();
+
+Fluent Wait --  In this the driver waits for a condition along with the frequency at which the condition is checked before throwing an exception. It optimizes the time for wait.
+Wait wait = new FluentWait(WebDriver reference)
+.withTimeout(timeout, SECONDS)
+.pollingEvery(timeout, SECONDS)
+.ignoring(Exception.class);
+
+Difference between thread.sleep and wait?
+
+Sleep(): This Method is used to pause the execution of current thread for a specified time in Milliseconds. 
+Here, Thread does not lose its ownership of the monitor and resume’s it’s execution
+
+Wait(): This method is defined in object class. It tells the calling thread (a.k.a Current Thread) to wait until another thread invoke’s the notify() or notifyAll() 
+method for this object, The thread waits until it re-obtains the ownership of the monitor and Resume’s Execution.
 
 
 
