@@ -1,0 +1,38 @@
+What is Performance Testing? Performance testing is used to perform the performance of the website before launching it in the market.
+It is required for Speed, Scalability and Stability
+
+Types of Performance Testing?
+
+Load Testing: Tested performance at normal and peak usage. response times are checked for different user loads.
+
+Stress Testing: How much load the system can sustain? Additional load is added gradually. Need to check how it recovers after the crash
+
+Volume Testing: Application is tested with huge volume of data. 
+
+Capacity Testing: Where the application is tested to meet business volumes. Need to check if they can handle future loads.
+
+Reliability Testing: It is used to check the time required by the application to return to the normal state from abnormal state.
+
+Scalability Testing: If the application would be required to scale up based on the future needs.
+
+Performance testing process:
+
+Requirement Gathering --> Selection of tools --> Performance test plan --> Execution of test --> Performance Test Modeling --> Performance Test Development --> Test Results Analysis --> Report
+
+Requirement Gathering: Requirements are identified, gathered, architecture, number of users, functionality, Requests
+Selection of tools: After POC is done we can finalize the tools.
+Performance Test Plan: It is the test plan that decides how performance test will take place like workload, test environment
+Performance Test Development: Use cases for functional development is taken. Setup the test environment. 
+Execution of Test: Increase the load of users
+test Results analaysis: 
+
+Common Performance Bottlenecks:
+CPU Utilization
+Memory Utilization
+Networking Utilization
+S limitation
+Disk usage
+
+What is throughput in Performance testing? -- The amount of data transported to the server in response to the client request at a given time
+
+
