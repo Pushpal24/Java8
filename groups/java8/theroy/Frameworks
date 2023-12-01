@@ -12,6 +12,28 @@ What is RestAssured Method chaining? --Chaining means calling any number of meth
 
 Why would RestAssured utilize static import? -- It is used to simplify code by giving direct access to static methods and fields of a class without explicitly specifying the class name.
 
+Implementation of POST Request:
+
+  Response response=
+  given()
+  	.contentType(ContentType.JSON)
+  	.accept(ContentType.JSON)
+  	.body(payload)
+  .when()
+  	.post(post_url)
+  	
+  	
+Implementation of GET Request:
+	
+   Response response=
+   given.
+   		pathParam("userName", userName)
+   .when()
+   		.get(get_url)
+   		
+How to read a response    			
+
+
 What is Serialization? -- The process of converting organism's state(objects) into a stream of bytes(files) is known as serialization. 
 
 What technique does caching use? -- It is to store the information temporally so that 
