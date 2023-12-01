@@ -1,5 +1,9 @@
 RestAssured -- 
 
+Why is REST stateless -- REST is stateless because the server doesn't remember the previous requests. So every new requests should have all the required info for the server to understand it
+
+Why https instead of http? -- It is used to provide security to the messages/information that is being sent over internet
+
 What is RestAssured?  -- RestAssured is a java based library used for testing RESTful APIs. It is used to test the different REST functionalities so that API is working as expected
 
 What is client server architecture? -- Multiple clients are connected over internet to the server or few instances of a server. When a client submits a request, the server fulfils them
@@ -19,6 +23,7 @@ What is Response?
 Response is an interface which provides method to obtain the payload.
 
 Implementation method of response?
+
 response.getStatusLine().getStatusCode()
 
 Super Class of WebDriver/WebElement?
